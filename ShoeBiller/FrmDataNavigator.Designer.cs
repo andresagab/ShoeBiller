@@ -65,10 +65,10 @@ namespace ShoeBiller
             this.btnNext.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnNext.Image = global::ShoeBiller.Properties.Resources.navigate_next_FILL1_wght400_GRAD0_opsz24;
-            this.btnNext.Location = new System.Drawing.Point(778, 5);
+            this.btnNext.Location = new System.Drawing.Point(742, 5);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(30, 30);
-            this.btnNext.TabIndex = 17;
+            this.btnNext.TabIndex = 16;
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -80,10 +80,10 @@ namespace ShoeBiller
             this.btnLast.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLast.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnLast.Image = global::ShoeBiller.Properties.Resources.skip_next_FILL1_wght400_GRAD0_opsz24;
-            this.btnLast.Location = new System.Drawing.Point(742, 5);
+            this.btnLast.Location = new System.Drawing.Point(778, 5);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(30, 30);
-            this.btnLast.TabIndex = 16;
+            this.btnLast.TabIndex = 17;
             this.btnLast.UseVisualStyleBackColor = false;
             this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
@@ -95,10 +95,10 @@ namespace ShoeBiller
             this.btnFirst.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFirst.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnFirst.Image = global::ShoeBiller.Properties.Resources.skip_previous_FILL1_wght400_GRAD0_opsz24;
-            this.btnFirst.Location = new System.Drawing.Point(670, 5);
+            this.btnFirst.Location = new System.Drawing.Point(634, 5);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(30, 30);
-            this.btnFirst.TabIndex = 14;
+            this.btnFirst.TabIndex = 13;
             this.btnFirst.UseVisualStyleBackColor = false;
             this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
@@ -110,10 +110,10 @@ namespace ShoeBiller
             this.btnBefore.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBefore.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnBefore.Image = global::ShoeBiller.Properties.Resources.navigate_before_FILL1_wght400_GRAD0_opsz24;
-            this.btnBefore.Location = new System.Drawing.Point(634, 5);
+            this.btnBefore.Location = new System.Drawing.Point(670, 5);
             this.btnBefore.Name = "btnBefore";
             this.btnBefore.Size = new System.Drawing.Size(30, 30);
-            this.btnBefore.TabIndex = 13;
+            this.btnBefore.TabIndex = 14;
             this.btnBefore.UseVisualStyleBackColor = false;
             this.btnBefore.Click += new System.EventHandler(this.btnBefore_Click);
             // 

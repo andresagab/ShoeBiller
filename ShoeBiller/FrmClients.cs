@@ -161,10 +161,16 @@ namespace ShoeBiller
             dataManager.saveRecord(position, data);
             // disable controls and clear data of form
             setStateControls(false);
-            // set position at last position of frmDataNavigator
-            position = (int) frmDataNavigator.position;
             // refresh data from frmDataNavigator
             frmDataNavigator.refreshTotalRecords();
+            // set position at last position of frmDataNavigator
+            if (position == -1)
+            {
+                frmDataNavigator.position = frmDataNavigator.totalRecords - 1;
+                frmDataNavigator.setTxtRecord();
+                position = (int) frmDataNavigator.position;
+            }
+
             // note: when is new record is neccessary set position at last record
         }
 
